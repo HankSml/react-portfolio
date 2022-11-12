@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Pixel Block Party",
+        "image": "https://wallpaperaccess.com/full/2984632.png",
+        "github": "https://github.com/jaronhadley/react_minecraft",
+        "deploy": "https://pixel-block-party.herokuapp.com/",
+        "topics": "React, GraphQL, JS"
+    },
+    {
+        "id": 2,
+        "name": "Bookworm Archive",
+        "image": "https://us.123rf.com/450wm/gregorylee/gregorylee1603/gregorylee160300110/55417089-pile-of-books-on-wooden-table-education-and-reading-concept.jpg?ver=6",
+        "github": "https://github.com/bpaige91/ProjectBookwormArchive",
+        "deploy": "https://bpaige91.github.io/ProjectBookwormArchive/",
+        "topics": "Javascript, APIs"
+    },
+    {
+        "id": 3,
+        "name": "Weather Forecasting",
+        "image": "https://videohive.img.customer.envatousercontent.com/files/7730b6bf-8232-4ebf-a95e-982a387b005a/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=b10bfaf6e8df12d7585c9920ababa535",
+        "github": "https://github.com/HankSml/weather-app",
+        "deploy": "https://hanksml.github.io/weather-app/",
+        "topics": "Jquery, APIs, Bootstrap"
+    },
+    {
+        "id": 4,
+        "name": "Scheduler",
+        "image": "https://static6.depositphotos.com/1010555/637/i/950/depositphotos_6372308-stock-photo-schedule.jpg",
+        "github": "https://github.com/HankSml/scheduler",
+        "deploy": "https://hanksml.github.io/scheduler/",
+        "topics": "jQuery"
+    },
+    {
+        "id": 5,
+        "name": "Password Generator",
+        "image": "https://www.pcworld.com/wp-content/uploads/2021/09/password_entry_amid_binary_code_by_matejmo_gettyimages-808422590_cso_nw_2400x1600-100855218-orig-1.jpg?quality=50&strip=all",
+        "github": "https://github.com/HankSml/challenge3",
+        "deploy": "https://hanksml.github.io/challenge3/",
+        "topics": "Javascript, HTML, CSS"
+    },
+    {
+        "id": 6,
+        "name": "Coding Quiz",
+        "image": "https://epe.brightspotcdn.com/c1/6d/3c43406c4dee9668c8cd4118cc94/edtech-online-quiz-030822.jpg",
+        "github": "https://github.com/HankSml/Hsml_Coding_Quiz",
+        "deploy": "https://hanksml.github.io/Hsml_Coding_Quiz/",
+        "topics": "Javascript, HTML, CSS"
+    }
+]
