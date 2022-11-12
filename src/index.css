@@ -82,6 +82,7 @@ li {
   min-width: 80%;
   opacity: 60%;
   justify-content: space-between;
+  background-size: contain;
 }
 .app-card > div:hover {
   opacity: 100%;
