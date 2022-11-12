@@ -15,6 +15,9 @@ export const Navigation = (props) => {
           <li>
             <NavLink to="/contact" className="card-link">Contact </NavLink>
           </li>
+          <li>
+            <NavLink to="/resume" className="card-link">Resume </NavLink>
+          </li>
         </ul>
       </div>
       <h1 className='my-name'>Harrison</h1>
