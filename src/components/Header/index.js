@@ -1,9 +1,10 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Route, Routes, Navigate, HashRouter} from "react-router-dom";
 import Navigation from '../../components/Navigation';
 import About from '../../components/About';
 import Contact from '../../components/Contact';
 import Portfolio from '../../components/Portfolio';
+import Resume from '../../components/Resume'
 
 function Header () {   
     return (
@@ -16,6 +17,7 @@ function Header () {
                 <Route path="/portfolio" element={<Portfolio />}/>
                 <Route path="/about" element={<About />}/>
                 <Route path="/contact" element={<Contact />}/>
+                <Route path="/resume" element={<Resume />}/>
             </Routes>
         </HashRouter>
     )
