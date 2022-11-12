@@ -3,17 +3,23 @@ import React from 'react';
 // Individual Card build-out using props
 function ProjectCards(props) {
     return (
-        <div class="app-card">
-            <div style="background-image: url({props.image})">
-                <div class="app-card-text">
-                    <h3 class="card-link">{props.name}</h3>
+        <div className="app-card">
+            <div style={{
+                backgroundImage: `url(${props.image})`
+                }}>
+                <div className="app-card-text">
+                    <h3 className="card-link">
+                        <a href={props.deploy} alt="Live Application" className='card-link'>
+                            {props.name}
+                        </a>
+                    </h3>
                     <p>{props.topics}</p>
-                    <a href={props.github} alt="Github Link">Github</a>
-                    <a href={props.deploy} alt="Live Application">Deployed Application</a>
+                    <p><a href={props.deploy} alt="Live Application" className='card-link'>Deployed Application</a></p>
                 </div>
+                <a href={props.github}><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="Github" className="icon"/></a>
             </div>
         </div>
     );
 }
-  
   export default ProjectCards;
+

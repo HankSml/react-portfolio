@@ -4,6 +4,8 @@
 }
 body {
   background-color: #778899;
+  margin: 0;
+  padding: 0;
 }
 div {
   display: flex;
@@ -11,13 +13,17 @@ div {
   flex-direction: row;
 }
 /* navbar style */
+#header {
+  width: 100%
+}
 nav {
+  display: flex;
   background-color: #002F6C;
-  position: fixed;
-  top: 0;
   width: 100%;
-  justify-content: right;
+  justify-content: space-between;
   text-align: right;
+  margin: 0;
+  padding: 0;
 }
 .navbar-link {
   color:black;
@@ -30,16 +36,26 @@ li {
   flex-direction: row;
   padding-inline: 5px;
 }
+.my-name {
+  color: seashell;
+  margin-right: 10px;
+}
 /* about me section */
 #about-me {
   align-items: center;
   padding: 5px;
   justify-content: center;
 }
+#img-container {
+  width: 100%;
+  justify-content: center;
+}
 #about-me-img {
-  max-width: 30%;
   border: 1px solid black;
   margin-right: 10px;
+}
+#about-me-img > img {
+  height: 250px
 }
 #about-me-text {
   max-width: 65%;
@@ -53,6 +69,8 @@ li {
 }
 .app-card {
   justify-content: center;
+  width: 50%;
+  min-height: 300px;
 }
 .app-card > div {
   border: 3px solid #002F6C;
@@ -60,12 +78,12 @@ li {
   align-items: flex-end;
   min-width: 80%;
   opacity: 60%;
+  justify-content: space-between;
 }
 .app-card > div:hover {
   opacity: 100%;
 }
 .app-card-text {
-  max-height: 30%;
   flex-direction: column;
   max-width: 50%;
   margin: 10px;
@@ -80,17 +98,15 @@ li {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.first {
-  min-width: 100%;
-  min-height: 300px;
-}
-.secondary {
-  width: 50%;
-  min-height: 300px;
-}
 .app-card img {
   max-width: 400px;
   height: auto;
+}
+.card-link:link {
+  color: seashell;
+}
+.card-link:visited {
+  color: seashell;
 }
 /* contact info */
 #contact-me-header {
@@ -103,4 +119,16 @@ li {
 }
 #contact-me-info > a {
   margin: 16px;
+}
+#contact-section {
+  display: flex;
+  width: 100%;
+}
+#contact-form {
+  display: flex;
+  width: 100%;
+}
+/* footer */
+.footer {
+  justify-content: space-between;
 }
